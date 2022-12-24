@@ -1,0 +1,77 @@
+html {
+    background-color: #1C332C;
+    background-image: url(Assets/bg.png);
+}
+
+#poster {
+    position: relative;
+    left: 5rem;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    width: 57vh;
+    height: 80vh;
+}
+
+#bg {
+    position: absolute;
+    width: 57vh;
+    height: 80vh;
+    border-radius: 1vh;
+    box-shadow: -1px 1px 35px 22px rgba(0, 0, 0, 0.82);
+    -webkit-box-shadow: -1px 1px 35px 22px rgba(0, 0, 0, 0.82);
+    -moz-box-shadow: -1px 1px 35px 22px rgba(0, 0, 0, 0.82);
+}
+
+#fg {
+    position: absolute;
+    width: 57vh;
+    height: 80vh;
+    transform: rotate(0deg);
+    transition: none 5s cubic-bezier(0, 0, 0, 1);
+    -webkit-transition: none 5s cubic-bezier(0, 0, 0, 1);
+    -moz-transition: none 5s cubic-bezier(0, 0, 0, 1);
+    -ms-transition: none 5s cubic-bezier(0, 0, 0, 1);
+    -o-transition: none 5s cubic-bezier(0, 0, 0, 1);
+}
+
+#fg_select {
+    position: absolute;
+    width: 40vh;
+    height: 40vh;
+    left: 9vh;
+    top: 20.5vh;
+    border-radius: 50%;
+}
+
+#fg_select:hover {
+    box-shadow: -1px 1px 35px 22px rgba(0, 0, 0, 0.82);
+    -webkit-box-shadow: -1px 1px 35px 22px rgba(0, 0, 0, 0.82);
+    -moz-box-shadow: -1px 1px 35px 22px rgba(0, 0, 0, 0.82);
+    cursor: pointer;
+}
+
+header {
+    color: white;
+    font-size: 4vh;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
+}
+
+#rezept_display {
+    position: absolute;
+    top: 20%;
+    transform: translateX(80vh);
+    width: 30vh;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    border: black dashed 7px;
+    background-color: #fff789;
+    padding: 20px;
+}
