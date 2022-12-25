@@ -3,7 +3,7 @@
     "background_color": "#1C332C",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/index.html",
+    "start_url": "/",
     "name": "Cocktail Spinner",
     "short_name": "Cocktail Spinner",
     "description": "Dreh am Rad um ein zuf\u00e4lliges Cocktail-Rezept angezeigt zu bekommen. Nicht f\u00fcr mobile optimiert :c",
