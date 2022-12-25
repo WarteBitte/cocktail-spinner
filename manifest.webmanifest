@@ -3,28 +3,28 @@
     "background_color": "#1C332C",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "/index.html",
     "name": "Cocktail Spinner",
     "short_name": "Cocktail Spinner",
     "description": "Dreh am Rad um ein zuf\u00e4lliges Cocktail-Rezept angezeigt zu bekommen. Nicht f\u00fcr mobile optimiert :c",
     "icons": [
         {
-            "src": "/Assets/icon-192x192.png",
+            "src": "/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/Assets/icon-256x256.png",
+            "src": "/icon-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "/Assets/icon-384x384.png",
+            "src": "/icon-384x384.png",
             "sizes": "384x384",
             "type": "image/png"
         },
         {
-            "src": "/Assets/icon-512x512.png",
+            "src": "/icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
